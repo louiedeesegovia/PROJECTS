@@ -1,0 +1,18 @@
+_start{
+
+	float: a = 10.5;
+	digit: b = 5;
+	digit: sum, sum1;
+	word: sample;
+	digit: m = 10, n = 10, o = 5, p = 2;
+
+	sum1 = calc o + (m * n) / p;
+	sum = calc m % 3;
+	sample = "Hello World!";
+
+	show>>("Hello! This is our Custom PL.");
+	show>>("@c", sample);
+	show>>("The sum of a and b is @f", sum);
+	show>>("The result of sum1 is @d", sum1);
+
+_done}
