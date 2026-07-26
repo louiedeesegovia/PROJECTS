@@ -1,0 +1,6 @@
+_start{
+   digit: x = 10;
+   digit: y = 2;
+   digit: sum = calc x + y;
+	show>>("Total: @d", sum);
+_done}
