@@ -1,0 +1,7 @@
+_start{
+    show>>( "Hello! World. This is our Custom PL." );
+    digit: x = 2;
+    digit: y = 10;
+    digit: sum = calc x + y;
+    show>>("Total: @d", sum);
+_done}
