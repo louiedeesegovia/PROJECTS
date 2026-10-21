@@ -1,0 +1,54 @@
+Experiment name resnet18_samp_aaff_wemd 
+
+Saliency-aware Multi-Pattern Pooling pattern: [1, 2, 3, 4, 5, 6, 7, 8], fusion manner: sum, dropout: 0.5
+{"epoch": 1, "train_loss": 0.19612098453588006, "train_sec": 91.2925341129303}
+{"epoch": 2, "train_loss": 0.1757814060062836, "train_sec": 107.91399765014648}
+{"epoch": 3, "train_loss": 0.16514173652957137, "train_sec": 107.72558617591858}
+{"epoch": 4, "train_loss": 0.15789601636362505, "train_sec": 107.25523948669434}
+{"epoch": 5, "train_loss": 0.152032283684922, "train_sec": 107.53761625289917}
+{"epoch": 6, "train_loss": 0.14971811990438322, "train_sec": 107.23225498199463}
+{"epoch": 7, "train_loss": 0.1448338108183669, "train_sec": 107.07201933860779}
+{"epoch": 8, "train_loss": 0.14416865831169312, "train_sec": 107.96077299118042}
+{"epoch": 9, "train_loss": 0.1411497127035912, "train_sec": 107.52413964271545}
+{"epoch": 10, "train_loss": 0.13710397777256664, "train_sec": 107.938316822052}
+{"epoch": 11, "train_loss": 0.13690093889304236, "train_sec": 106.44018268585205}
+{"epoch": 12, "train_loss": 0.13511927584688524, "train_sec": 85.73361492156982}
+{"epoch": 13, "train_loss": 0.1312652835566858, "train_sec": 87.03652667999268}
+{"epoch": 14, "train_loss": 0.12913591697562768, "train_sec": 87.27136182785034}
+{"epoch": 15, "train_loss": 0.1281618323633444, "train_sec": 87.17243766784668}
+{"epoch": 16, "train_loss": 0.12737017793586775, "train_sec": 87.18711066246033}
+{"epoch": 17, "train_loss": 0.1255911541735483, "train_sec": 87.40128135681152}
+{"epoch": 18, "train_loss": 0.1243233834165041, "train_sec": 86.54571509361267}
+{"epoch": 19, "train_loss": 0.12331361307119562, "train_sec": 86.9492700099945}
+{"epoch": 20, "train_loss": 0.12172611081643427, "train_sec": 87.14889526367188}
+{"epoch": 21, "train_loss": 0.12066176497784221, "train_sec": 86.58816814422607}
+{"epoch": 22, "train_loss": 0.12043654639894981, "train_sec": 87.54313945770264}
+{"epoch": 23, "train_loss": 0.11752685061550787, "train_sec": 86.40849828720093}
+{"epoch": 24, "train_loss": 0.11775169897019494, "train_sec": 87.46784901618958}
+{"epoch": 25, "train_loss": 0.11689137057040021, "train_sec": 87.39563536643982}
+{"epoch": 26, "train_loss": 0.1160390011009953, "train_sec": 87.47956991195679}
+{"epoch": 27, "train_loss": 0.11420219327600237, "train_sec": 87.62257814407349}
+{"epoch": 28, "train_loss": 0.11307810854183745, "train_sec": 86.6371636390686}
+{"epoch": 29, "train_loss": 0.1113339729133762, "train_sec": 86.61297154426575}
+{"epoch": 30, "train_loss": 0.11146244543647157, "train_sec": 87.68024969100952}
+{"epoch": 31, "train_loss": 0.10951115978057724, "train_sec": 87.4004635810852}
+{"epoch": 32, "train_loss": 0.10852290821400416, "train_sec": 87.36846494674683}
+{"epoch": 33, "train_loss": 0.1084462768507517, "train_sec": 87.01832556724548}
+{"epoch": 34, "train_loss": 0.10735597920334798, "train_sec": 86.57007312774658}
+{"epoch": 35, "train_loss": 0.10714011843949016, "train_sec": 87.07870697975159}
+{"epoch": 36, "train_loss": 0.1064966554385508, "train_sec": 86.60476326942444}
+{"epoch": 37, "train_loss": 0.10475403917586161, "train_sec": 87.41935229301453}
+{"epoch": 38, "train_loss": 0.10356124406378632, "train_sec": 86.62130999565125}
+{"epoch": 39, "train_loss": 0.10338147292293916, "train_sec": 87.16558122634888}
+{"epoch": 40, "train_loss": 0.10313044121785095, "train_sec": 86.95966577529907}
+{"epoch": 41, "train_loss": 0.10139308798183429, "train_sec": 87.51641178131104}
+{"epoch": 42, "train_loss": 0.1002732642187603, "train_sec": 86.48187756538391}
+{"epoch": 43, "train_loss": 0.09925249309250803, "train_sec": 87.32443141937256}
+{"epoch": 44, "train_loss": 0.09842382485620792, "train_sec": 106.50269103050232}
+{"epoch": 45, "train_loss": 0.09763564685290077, "train_sec": 108.55838799476624}
+{"epoch": 46, "train_loss": 0.09865333633289235, "train_sec": 108.80421853065491}
+{"epoch": 47, "train_loss": 0.09770953983357877, "train_sec": 108.63568806648254}
+{"epoch": 48, "train_loss": 0.09722294500379851, "train_sec": 107.60239481925964}
+{"epoch": 49, "train_loss": 0.09543965333760851, "train_sec": 107.82685446739197}
+{"epoch": 50, "train_loss": 0.0953667185319311, "train_sec": 107.33240008354187}
+TEST (evaluated once): {"mse": 0.43046504259109497, "emd1": 0.11210405983422932, "emd2": 0.18967277150405082, "srcc": 0.6266967477757639, "lcc": 0.6282228568210669}
