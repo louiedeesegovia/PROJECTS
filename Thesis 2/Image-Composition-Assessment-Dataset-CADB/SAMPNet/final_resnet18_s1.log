@@ -1,0 +1,54 @@
+Experiment name resnet18_samp_aaff_wemd 
+
+Saliency-aware Multi-Pattern Pooling pattern: [1, 2, 3, 4, 5, 6, 7, 8], fusion manner: sum, dropout: 0.5
+{"epoch": 1, "train_loss": 0.19640175186117673, "train_sec": 108.17228102684021}
+{"epoch": 2, "train_loss": 0.17634698968610388, "train_sec": 106.99146389961243}
+{"epoch": 3, "train_loss": 0.1655751383397347, "train_sec": 107.49001812934875}
+{"epoch": 4, "train_loss": 0.1603543050225414, "train_sec": 97.42624711990356}
+{"epoch": 5, "train_loss": 0.1543150430616474, "train_sec": 85.68308186531067}
+{"epoch": 6, "train_loss": 0.1504716495296279, "train_sec": 86.92608070373535}
+{"epoch": 7, "train_loss": 0.14548192704903867, "train_sec": 85.90977191925049}
+{"epoch": 8, "train_loss": 0.14310908734421848, "train_sec": 86.29915165901184}
+{"epoch": 9, "train_loss": 0.140405445937052, "train_sec": 86.13766598701477}
+{"epoch": 10, "train_loss": 0.13743496811747677, "train_sec": 86.24756979942322}
+{"epoch": 11, "train_loss": 0.13663848234545184, "train_sec": 87.04113745689392}
+{"epoch": 12, "train_loss": 0.1345469965001805, "train_sec": 86.33185911178589}
+{"epoch": 13, "train_loss": 0.13177117314640788, "train_sec": 86.97711849212646}
+{"epoch": 14, "train_loss": 0.12996648769026767, "train_sec": 86.49240612983704}
+{"epoch": 15, "train_loss": 0.12879079483371877, "train_sec": 87.09656095504761}
+{"epoch": 16, "train_loss": 0.12893809761093195, "train_sec": 86.55704689025879}
+{"epoch": 17, "train_loss": 0.12721343998206322, "train_sec": 87.36625933647156}
+{"epoch": 18, "train_loss": 0.12488908129235911, "train_sec": 86.64241337776184}
+{"epoch": 19, "train_loss": 0.12376133583959424, "train_sec": 87.33204674720764}
+{"epoch": 20, "train_loss": 0.12298544340173, "train_sec": 87.12032914161682}
+{"epoch": 21, "train_loss": 0.1214104583786568, "train_sec": 86.64209938049316}
+{"epoch": 22, "train_loss": 0.11975516511729492, "train_sec": 87.19015550613403}
+{"epoch": 23, "train_loss": 0.11971215508521699, "train_sec": 86.27168869972229}
+{"epoch": 24, "train_loss": 0.11745365279657709, "train_sec": 87.04669427871704}
+{"epoch": 25, "train_loss": 0.11633552234901857, "train_sec": 87.0171320438385}
+{"epoch": 26, "train_loss": 0.11488923471064906, "train_sec": 86.43117213249207}
+{"epoch": 27, "train_loss": 0.11434987930002806, "train_sec": 86.65388774871826}
+{"epoch": 28, "train_loss": 0.1147010639942751, "train_sec": 87.04038095474243}
+{"epoch": 29, "train_loss": 0.11209867711762901, "train_sec": 87.12524557113647}
+{"epoch": 30, "train_loss": 0.11153378064076329, "train_sec": 86.05758905410767}
+{"epoch": 31, "train_loss": 0.11228296170286844, "train_sec": 86.346444606781}
+{"epoch": 32, "train_loss": 0.11071090066437834, "train_sec": 86.24262285232544}
+{"epoch": 33, "train_loss": 0.10829001377273809, "train_sec": 86.65863537788391}
+{"epoch": 34, "train_loss": 0.10930935352625758, "train_sec": 87.32403063774109}
+{"epoch": 35, "train_loss": 0.10629113680670327, "train_sec": 87.04643058776855}
+{"epoch": 36, "train_loss": 0.10698510072597972, "train_sec": 86.37512063980103}
+{"epoch": 37, "train_loss": 0.10522600434998594, "train_sec": 91.83271050453186}
+{"epoch": 38, "train_loss": 0.10549514232231913, "train_sec": 109.33272099494934}
+{"epoch": 39, "train_loss": 0.10273281547518882, "train_sec": 108.47493958473206}
+{"epoch": 40, "train_loss": 0.10316080337461567, "train_sec": 108.2714307308197}
+{"epoch": 41, "train_loss": 0.1036225161165944, "train_sec": 107.48151469230652}
+{"epoch": 42, "train_loss": 0.10113028953043887, "train_sec": 107.38192772865295}
+{"epoch": 43, "train_loss": 0.10053087435675823, "train_sec": 106.85242700576782}
+{"epoch": 44, "train_loss": 0.10011533348165898, "train_sec": 107.19056510925293}
+{"epoch": 45, "train_loss": 0.10011228786353635, "train_sec": 106.8552815914154}
+{"epoch": 46, "train_loss": 0.09880759275955416, "train_sec": 107.41036486625671}
+{"epoch": 47, "train_loss": 0.09802954047796279, "train_sec": 107.39645481109619}
+{"epoch": 48, "train_loss": 0.09696980781711109, "train_sec": 101.34042644500732}
+{"epoch": 49, "train_loss": 0.09725750667896552, "train_sec": 86.58783721923828}
+{"epoch": 50, "train_loss": 0.09692656935112119, "train_sec": 86.85520386695862}
+TEST (evaluated once): {"mse": 0.4042174518108368, "emd1": 0.1087194107708178, "emd2": 0.18468330897782978, "srcc": 0.6406913917798711, "lcc": 0.6528559536856391}
