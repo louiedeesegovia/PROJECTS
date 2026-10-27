@@ -1,0 +1,30 @@
+{
+  "args": {
+    "backbone": "efficientnet_b0",
+    "proj": 0,
+    "mode": "final",
+    "seed": 2,
+    "epochs": 50,
+    "patience": 10,
+    "bs": 16,
+    "lr": 0.0001,
+    "bb_lr_mult": 0.01,
+    "workers": 2,
+    "weighted": 1,
+    "out": "runs_sched",
+    "max_train": 0,
+    "lr_milestones": "30,40"
+  },
+  "params_total": 105945468,
+  "params_backbone": 4007548,
+  "peak_mem_mb": 3422.11328125,
+  "median_train_sec": 137.39217293262482,
+  "epochs_run": 50,
+  "test": {
+    "mse": 0.4175677001476288,
+    "emd1": 0.11237790866902,
+    "emd2": 0.19018159427140888,
+    "srcc": 0.6263513684887939,
+    "lcc": 0.6433453428504916
+  }
+}
