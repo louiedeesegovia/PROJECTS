@@ -1,0 +1,30 @@
+{
+  "args": {
+    "backbone": "mnasnet0_75",
+    "proj": 0,
+    "mode": "final",
+    "seed": 0,
+    "epochs": 50,
+    "patience": 10,
+    "bs": 16,
+    "lr": 0.0001,
+    "bb_lr_mult": 0.01,
+    "workers": 2,
+    "weighted": 1,
+    "out": "runs_sched",
+    "max_train": 0,
+    "lr_milestones": "30,40"
+  },
+  "params_total": 103827128,
+  "params_backbone": 1889208,
+  "peak_mem_mb": 2615.92822265625,
+  "median_train_sec": 111.50839579105377,
+  "epochs_run": 50,
+  "test": {
+    "mse": 0.4096156060695648,
+    "emd1": 0.1114347099003039,
+    "emd2": 0.1895589431963469,
+    "srcc": 0.6444528087030272,
+    "lcc": 0.6544118730499056
+  }
+}
