@@ -1,0 +1,30 @@
+{
+  "args": {
+    "backbone": "mobilenet_v3_small",
+    "proj": 0,
+    "mode": "final",
+    "seed": 1,
+    "epochs": 50,
+    "patience": 10,
+    "bs": 16,
+    "lr": 0.0001,
+    "bb_lr_mult": 0.01,
+    "workers": 2,
+    "weighted": 1,
+    "out": "runs_sched",
+    "max_train": 0,
+    "lr_milestones": "30,40"
+  },
+  "params_total": 39837920,
+  "params_backbone": 927008,
+  "peak_mem_mb": 1037.16748046875,
+  "median_train_sec": 77.46013736724854,
+  "epochs_run": 50,
+  "test": {
+    "mse": 0.4417840838432312,
+    "emd1": 0.11535176490482531,
+    "emd2": 0.19187551648993242,
+    "srcc": 0.618869267041516,
+    "lcc": 0.6104094935507689
+  }
+}
