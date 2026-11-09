@@ -1,0 +1,30 @@
+{
+  "args": {
+    "backbone": "densenet121",
+    "proj": 0,
+    "mode": "final",
+    "seed": 0,
+    "epochs": 50,
+    "patience": 10,
+    "bs": 16,
+    "lr": 0.0001,
+    "bb_lr_mult": 0.01,
+    "workers": 2,
+    "weighted": 1,
+    "out": "runs_sched",
+    "max_train": 0,
+    "lr_milestones": "30,40"
+  },
+  "params_total": 82532224,
+  "params_backbone": 6953856,
+  "peak_mem_mb": 3383.40478515625,
+  "median_train_sec": 185.6587461233139,
+  "epochs_run": 50,
+  "test": {
+    "mse": 0.39755377173423767,
+    "emd1": 0.10818752439398514,
+    "emd2": 0.18099968282799972,
+    "srcc": 0.6659511596692941,
+    "lcc": 0.6589334683568159
+  }
+}
