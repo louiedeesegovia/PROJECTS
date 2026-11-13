@@ -1,0 +1,30 @@
+{
+  "args": {
+    "backbone": "regnet_y_400mf",
+    "proj": 0,
+    "mode": "final",
+    "seed": 1,
+    "epochs": 50,
+    "patience": 10,
+    "bs": 16,
+    "lr": 0.0001,
+    "bb_lr_mult": 0.01,
+    "workers": 2,
+    "weighted": 1,
+    "out": "runs_sched",
+    "max_train": 0,
+    "lr_milestones": "30,40"
+  },
+  "params_total": 34065368,
+  "params_backbone": 3903144,
+  "peak_mem_mb": 1173.89453125,
+  "median_train_sec": 94.70085382461548,
+  "epochs_run": 50,
+  "test": {
+    "mse": 0.4031427800655365,
+    "emd1": 0.11120804786682129,
+    "emd2": 0.18306535557696693,
+    "srcc": 0.6541729522014487,
+    "lcc": 0.6531251420214972
+  }
+}
