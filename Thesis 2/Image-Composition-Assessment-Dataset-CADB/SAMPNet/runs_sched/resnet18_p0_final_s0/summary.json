@@ -1,0 +1,30 @@
+{
+  "args": {
+    "backbone": "resnet18",
+    "proj": 0,
+    "mode": "final",
+    "seed": 0,
+    "epochs": 50,
+    "patience": 10,
+    "bs": 16,
+    "lr": 0.0001,
+    "bb_lr_mult": 0.01,
+    "workers": 2,
+    "weighted": 1,
+    "out": "runs_sched",
+    "max_train": 0,
+    "lr_milestones": "30,40"
+  },
+  "params_total": 45832256,
+  "params_backbone": 11176512,
+  "peak_mem_mb": 1198.2236328125,
+  "median_train_sec": 87.17987906932831,
+  "epochs_run": 50,
+  "test": {
+    "mse": 0.40653717517852783,
+    "emd1": 0.10961557934158726,
+    "emd2": 0.1835404368450767,
+    "srcc": 0.6424470276922674,
+    "lcc": 0.6502284372533189
+  }
+}
