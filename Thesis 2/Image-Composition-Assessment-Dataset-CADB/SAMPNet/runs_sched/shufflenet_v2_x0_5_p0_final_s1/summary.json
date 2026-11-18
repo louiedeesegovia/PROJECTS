@@ -1,0 +1,30 @@
+{
+  "args": {
+    "backbone": "shufflenet_v2_x0_5",
+    "proj": 0,
+    "mode": "final",
+    "seed": 1,
+    "epochs": 50,
+    "patience": 10,
+    "bs": 16,
+    "lr": 0.0001,
+    "bb_lr_mult": 0.01,
+    "workers": 2,
+    "weighted": 1,
+    "out": "runs_sched",
+    "max_train": 0,
+    "lr_milestones": "30,40"
+  },
+  "params_total": 75920160,
+  "params_backbone": 341792,
+  "peak_mem_mb": 1673.82275390625,
+  "median_train_sec": 76.96934592723846,
+  "epochs_run": 50,
+  "test": {
+    "mse": 0.49918651580810547,
+    "emd1": 0.12274270923514115,
+    "emd2": 0.19920192454990587,
+    "srcc": 0.5650163310345575,
+    "lcc": 0.5397445271253991
+  }
+}
