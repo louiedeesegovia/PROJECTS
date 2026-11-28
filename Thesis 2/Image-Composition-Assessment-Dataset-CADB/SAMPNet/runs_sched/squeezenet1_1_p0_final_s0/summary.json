@@ -1,0 +1,30 @@
+{
+  "args": {
+    "backbone": "squeezenet1_1",
+    "proj": 0,
+    "mode": "final",
+    "seed": 0,
+    "epochs": 50,
+    "patience": 10,
+    "bs": 16,
+    "lr": 0.0001,
+    "bb_lr_mult": 0.01,
+    "workers": 2,
+    "weighted": 1,
+    "out": "runs_sched",
+    "max_train": 0,
+    "lr_milestones": "30,40"
+  },
+  "params_total": 35378240,
+  "params_backbone": 722496,
+  "peak_mem_mb": 999.0419921875,
+  "median_train_sec": 76.274587392807,
+  "epochs_run": 50,
+  "test": {
+    "mse": 0.4250895082950592,
+    "emd1": 0.11348609805107117,
+    "emd2": 0.19030647227638647,
+    "srcc": 0.6285594001497506,
+    "lcc": 0.6309416783716347
+  }
+}
